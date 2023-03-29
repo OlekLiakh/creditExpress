@@ -1,0 +1,20 @@
+{
+  "testData": [
+    {
+      "label": "Verify that form can be saved with Incoming call",
+      "callType": "Incoming Call",
+      "phoneNumber": "+1 987 654 3210",
+      "fieldName": "Call Reason",
+      "dropDownValue": "Email",
+      "callResult": "Send a message"
+    },
+    {
+      "label": "Verify that form can be saved with Outgoing call",
+      "callType": "Outgoing Call",
+      "phoneNumber": "+1 555 444 3333",
+      "fieldName": "Result Type",
+      "dropDownValue": "Wrong Person",
+      "callResult": " "
+    }
+  ]
+}

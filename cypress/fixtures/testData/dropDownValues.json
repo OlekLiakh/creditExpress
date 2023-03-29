@@ -1,0 +1,34 @@
+{
+  "testData": [
+    {
+      "label": "Verify values for Call Reason field",
+      "callType": "Incoming Call",
+      "fieldName": "Call Reason",
+      "dropDownValues": [
+        "Email",
+        "SMS",
+        "Missed Call"
+      ]
+    },
+    {
+      "label": "Verify values for Call Result field",
+      "callType": "Outgoing Call",
+      "fieldName": "Result Type",
+      "dropDownValues": [
+        "Not available",
+        "Wrong Person",
+        "Busy",
+        "Successful"
+      ]
+    },
+    {
+      "label": "Verify values for Phone Number field",
+      "fieldName": "Phone Number",
+      "dropDownValues": [
+        "+1 123 456 7890",
+        "+1 987 654 3210",
+        "+1 555 444 3333"
+      ]
+    }
+  ]
+}
