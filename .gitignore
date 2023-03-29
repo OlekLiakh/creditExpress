@@ -1,0 +1,36 @@
+### Cypress Custom .gitignore ###
+*.log.*
+dist-*
+build
+.history
+.publish
+_test-output
+cypress.zip
+.babel-cache
+
+# from driver
+packages/driver/cypress/videos
+packages/driver/cypress/screenshots
+
+# from runner
+packages/runner/cypress/videos
+packages/runner/cypress/screenshots
+
+# from npm/create-cypress-tests
+/npm/create-cypress-tests/initial-template
+/npm/create-cypress-tests/src/test-output
+
+# User-specific stuff
+.idea
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# IntelliJ
+out/
+
+# Dependency directories
+node_modules/
+jspm_packages/
