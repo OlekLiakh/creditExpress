@@ -43,8 +43,8 @@ npx cypress run --browser chrome --headed -- env URL=http://google.com
 HTML report, with run results, places in folder "/cypress/reports" after each run
 
 ## Test task Requirements notes
-1. A ""Call Form" button is visible on the page" verification is provided in method "openCallForm()" every time the call form opens.
-2. A "Pop-up window with the form opens after clicking the "Call Form"" verification is provided in method "openCallForm()" every time the call form opens.
-3. A "The form fields are updated after changing the "Call Type" drop down list value" verification is provided in method "selectOptionInDropDownForField()" every time the dropDown value is selected.'
+1. A ""Call Form" button is visible on the page" verification provides in the method "openCallForm()" every time the call form opens.
+2. A "Pop-up window with the form opens after clicking the "Call Form"" verification provides in the method "openCallForm()" every time the call form opens.
+3. A "The form fields are updated after changing the "Call Type" drop down list value" verification provides in the method "selectOptionInDropDownForField()" every time the dropDown value is selected.
 4. Rest of requirements are covered by the test cases.
 
